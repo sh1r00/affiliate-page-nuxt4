@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #dc2626;
+  --color-primary-hover: #b91c1c;
+  --color-surface: #0f172a;
+  --color-surface-light: #1e293b;
+  --color-surface-lighter: #334155;
+  --color-accent: #fbbf24;
+  --color-accent-hover: #f59e0b;
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+}
+
+html {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+/* Skip to content link */
+.skip-to-content {
+  @apply absolute left-2 top-2 z-[9999] -translate-y-full rounded-lg bg-red-600 px-4 py-2 text-white transition-transform focus:translate-y-0;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  @apply bg-gradient-to-r from-red-500 to-amber-500 bg-clip-text text-transparent;
+}
+
+/* Glow effects */
+.glow-red {
+  box-shadow: 0 0 40px rgba(220, 38, 38, 0.15), 0 0 80px rgba(220, 38, 38, 0.05);
+}
+
+.glow-amber {
+  box-shadow: 0 0 40px rgba(251, 191, 36, 0.15);
+}
+
+/* Animated pulse ring for CTA */
+.cta-pulse {
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(220, 38, 38, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+  }
+}
+
+/* FAQ expand animation */
+.faq-enter-active,
+.faq-leave-active {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.faq-enter-from,
+.faq-leave-to {
+  opacity: 0;
+  max-height: 0;
+}
+
+.faq-enter-to,
+.faq-leave-from {
+  opacity: 1;
+  max-height: 500px;
+}

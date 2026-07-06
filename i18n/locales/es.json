@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "title": "Transforma tus Resultados | Curso Premium",
+    "description": "Descubre el sistema probado que ha ayudado a miles a lograr resultados extraordinarios. Oferta por tiempo limitado, unete ahora.",
+    "siteName": "Results Mastery"
+  },
+  "header": {
+    "logo": "Results Mastery",
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "badge": "OFERTA POR TIEMPO LIMITADO",
+    "headline": "Transforma tus Resultados en Solo 30 Dias",
+    "subheadline": "El sistema paso a paso comprobado que los mejores utilizan para lograr resultados extraordinarios. Sin relleno, sin trucos, solo lo que funciona.",
+    "cta": "Obten Acceso Inmediato",
+    "guarantee": "Garantia de Devolucion de 60 Dias"
+  },
+  "features": {
+    "title": "Todo lo que Necesitas para Triunfar",
+    "subtitle": "Nuestro sistema integral te brinda todas las herramientas, formacion y apoyo",
+    "item1": {
+      "title": "Marco Comprobado",
+      "desc": "Plan paso a paso probado y refinado con miles de estudiantes exitosos"
+    },
+    "item2": {
+      "title": "Acceso de por Vida",
+      "desc": "Inversion unica. Obten todas las actualizaciones futuras, nuevos modulos y recursos para siempre"
+    },
+    "item3": {
+      "title": "Comunidad Experta",
+      "desc": "Unete a una comunidad prospera de personas con ideas afines y obten respuestas 24/7"
+    },
+    "item4": {
+      "title": "Coaching Personal",
+      "desc": "Recibe retroalimentacion directa y orientacion de coaches certificados que se preocupan por tu exito"
+    }
+  },
+  "testimonials": {
+    "title": "Lo que Dicen Nuestros Estudiantes",
+    "subtitle": "Unete a miles de clientes satisfechos que transformaron sus resultados",
+    "person1": {
+      "role": "Empresario",
+      "quote": "Este programa cambio completamente mi forma de hacer negocios. En el primer mes, vi un aumento de 3x en ingresos. Las estrategias son practicas e inmediatamente aplicables."
+    },
+    "person2": {
+      "role": "Freelancer",
+      "quote": "Al principio era esceptico, pero los resultados hablan por si solos. El apoyo de la comunidad vale 10 veces el precio. La mejor inversion que he hecho en mi mismo."
+    },
+    "person3": {
+      "role": "Director de Marketing",
+      "quote": "Los marcos que se ensenan aqui estan anos luz por delante de cualquier otra cosa en el mercado. Los he implementado en todo mi equipo y estamos viendo un impulso increible."
+    }
+  },
+  "pricing": {
+    "title": "Elige tu Plan",
+    "subtitle": "Comienza tu transformacion hoy. Todos los planes incluyen nuestra garantia de 60 dias.",
+    "perMonth": "/mes",
+    "getStarted": "Comenzar",
+    "popular": "Mas Popular",
+    "tier1": {
+      "name": "Inicial",
+      "desc": "Perfecto para comenzar tu viaje de transformacion",
+      "feature1": "Modulos de formacion basica",
+      "feature2": "Acceso a la comunidad",
+      "feature3": "Llamadas Q&A mensuales",
+      "feature4": "Soporte por correo electronico"
+    },
+    "tier2": {
+      "name": "Profesional",
+      "desc": "El paquete completo para personas serias",
+      "feature1": "Todo en Inicial",
+      "feature2": "Clases magistrales avanzadas",
+      "feature3": "Sesiones de coaching 1-a-1",
+      "feature4": "Plantillas listas para usar",
+      "feature5": "Soporte prioritario"
+    },
+    "tier3": {
+      "name": "Empresarial",
+      "desc": "Para equipos y organizaciones listos para escalar",
+      "feature1": "Todo en Profesional",
+      "feature2": "Portal de formacion para equipos",
+      "feature3": "Gerente de exito dedicado",
+      "feature4": "Integraciones personalizadas",
+      "feature5": "Licencia de marca blanca",
+      "feature6": "Soporte VIP 24/7"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Tienes preguntas? Tenemos respuestas",
+    "q1": {
+      "question": "Cuanto tiempo toma ver resultados?",
+      "answer": "La mayoria de los estudiantes informan ver un progreso significativo dentro de las primeras 2-4 semanas de aplicacion constante. Sin embargo, los resultados varian segun tu punto de partida y nivel de esfuerzo."
+    },
+    "q2": {
+      "question": "Hay garantia de devolucion de dinero?",
+      "answer": "Absolutamente. Ofrecemos una garantia incondicional de devolucion de 60 dias. Si no estas completamente satisfecho por cualquier motivo, simplemente contacta a nuestro equipo de soporte y te devolveremos cada centavo, sin preguntas."
+    },
+    "q3": {
+      "question": "Necesito experiencia previa?",
+      "answer": "No se requiere experiencia previa. El curso esta disenado para llevarte de principiante completo a practicante avanzado. Cada modulo se basa en el anterior, con pasos de accion claros en cada etapa."
+    },
+    "q4": {
+      "question": "Como se entrega el contenido?",
+      "answer": "Todo el contenido se entrega a traves de nuestro portal de aprendizaje en linea premium. Obtienes acceso inmediato a lecciones en video HD, recursos descargables, libros de trabajo y nuestra comunidad privada."
+    },
+    "q5": {
+      "question": "Que pasa si me atasco o necesito ayuda?",
+      "answer": "Nunca estas solo en tu viaje. Nuestro foro comunitario esta activo 24/7 y nuestro equipo de soporte responde en horas. Los miembros del plan Profesional y Empresarial tambien tienen acceso directo a coaching 1-a-1."
+    }
+  },
+  "cta": {
+    "headline": "Listo para Transformar tus Resultados?",
+    "subheadline": "Unete a miles de estudiantes exitosos hoy. Tu gran avance comienza ahora.",
+    "button": "Obtener Acceso Inmediato",
+    "disclaimer": "Precios por tiempo limitado. El precio aumentara pronto."
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados.",
+    "links": {
+      "privacy": "Politica de Privacidad",
+      "terms": "Terminos de Servicio",
+      "contact": "Contacto"
+    },
+    "disclaimer": "Los resultados pueden variar. Los testimonios mostrados son experiencias individuales y no garantizan resultados similares."
+  },
+  "about": {
+    "title": "Sobre el Creador",
+    "headline": "Conoce a la Persona Detras de Results Mastery",
+    "story": "Despues de pasar mas de una decada en las trincheras, probando lo que realmente funciona y lo que no, cree este programa para darte el atajo. Sin relleno, sin contenido vacio, solo los sistemas, marcos y estrategias exactos que producen resultados reales y medibles.",
+    "credentials": {
+      "title": "Credenciales y Experiencia",
+      "item1": "10+ anos de experiencia practica en la industria",
+      "item2": "Destacado en publicaciones importantes",
+      "item3": "Ayudo a mas de 5,000 estudiantes a lograr resultados",
+      "item4": "Multiples programas galardonados"
+    }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Estamos aqui para ayudar. Envianos un mensaje y te responderemos en 24 horas.",
+    "name": "Tu Nombre",
+    "email": "Tu Correo Electronico",
+    "subject": "Asunto",
+    "message": "Tu Mensaje",
+    "submit": "Enviar Mensaje",
+    "success": "Mensaje enviado con exito! Te responderemos pronto.",
+    "emailLabel": "Envianos un correo directamente",
+    "responseTime": "Normalmente respondemos en 24 horas"
+  },
+  "privacy": {
+    "title": "Politica de Privacidad",
+    "lastUpdated": "Ultima actualizacion: Enero 2025",
+    "intro": "Tu privacidad es importante para nosotros. Esta politica explica como recopilamos, usamos y protegemos tu informacion personal.",
+    "sections": {
+      "collection": {
+        "title": "Informacion que Recopilamos",
+        "content": "Recopilamos la informacion que proporcionas directamente, como tu nombre, direccion de correo electronico e informacion de pago cuando realizas una compra. Tambien recopilamos datos de uso a traves de cookies y herramientas de analisis para mejorar nuestro servicio."
+      },
+      "usage": {
+        "title": "Como Usamos tu Informacion",
+        "content": "Usamos tu informacion para proporcionar y mejorar nuestros servicios, procesar pagos, enviar actualizaciones importantes y personalizar tu experiencia. Nunca vendemos tus datos personales a terceros."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "Usamos cookies esenciales para la funcionalidad del sitio y cookies de analisis para entender como utilizas nuestra plataforma. Puedes controlar las preferencias de cookies a traves de la configuracion de tu navegador."
+      },
+      "rights": {
+        "title": "Tus Derechos",
+        "content": "Tienes derecho a acceder, corregir o eliminar tus datos personales en cualquier momento. Tambien puedes optar por no recibir comunicaciones de marketing. Contactanos para ejercer estos derechos."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terminos de Servicio",
+    "lastUpdated": "Ultima actualizacion: Enero 2025",
+    "intro": "Al acceder y utilizar nuestros servicios, aceptas estar sujeto a estos terminos. Por favor, leelos detenidamente.",
+    "sections": {
+      "acceptance": {
+        "title": "Aceptacion de los Terminos",
+        "content": "Al crear una cuenta o realizar una compra, reconoces que has leido, entendido y aceptas estar sujeto a estos Terminos de Servicio y nuestra Politica de Privacidad."
+      },
+      "purchases": {
+        "title": "Compras y Reembolsos",
+        "content": "Todas las compras estan sujetas a nuestra garantia de devolucion de 60 dias. Para solicitar un reembolso, contacta a nuestro equipo de soporte dentro de los 60 dias posteriores a tu compra. Los reembolsos se procesan en 5-10 dias habiles."
+      },
+      "intellectual": {
+        "title": "Propiedad Intelectual",
+        "content": "Todo el contenido, materiales y recursos proporcionados a traves de nuestra plataforma estan protegidos por derechos de autor y leyes de propiedad intelectual. No puedes redistribuir, revender ni crear obras derivadas sin permiso explicito."
+      },
+      "limitation": {
+        "title": "Limitacion de Responsabilidad",
+        "content": "Proporcionamos nuestros servicios tal cual. Si bien nos esforzamos por la excelencia, no garantizamos resultados especificos. Nuestra responsabilidad se limita al monto que pagaste por el servicio."
+      }
+    }
+  },
+  "darkMode": {
+    "toggle": "Alternar modo oscuro"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "title": "Transform Your Results | Premium Course",
+    "description": "Discover the proven system that has helped thousands achieve extraordinary results. Limited time offer - join now!",
+    "siteName": "Results Mastery"
+  },
+  "header": {
+    "logo": "Results Mastery",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "badge": "LIMITED TIME OFFER",
+    "headline": "Transform Your Results in Just 30 Days",
+    "subheadline": "The proven step-by-step system that top performers use to achieve breakthrough results. No fluff, no gimmicks — just what works.",
+    "cta": "Get Instant Access Now",
+    "guarantee": "60-Day Money-Back Guarantee"
+  },
+  "features": {
+    "title": "Everything You Need to Succeed",
+    "subtitle": "Our comprehensive system gives you all the tools, training, and support",
+    "item1": {
+      "title": "Proven Framework",
+      "desc": "Step-by-step blueprint tested and refined with thousands of successful students"
+    },
+    "item2": {
+      "title": "Lifetime Access",
+      "desc": "One-time investment. Get all future updates, new modules, and resources forever"
+    },
+    "item3": {
+      "title": "Expert Community",
+      "desc": "Join a thriving community of like-minded achievers and get answers 24/7"
+    },
+    "item4": {
+      "title": "Personal Coaching",
+      "desc": "Get direct feedback and guidance from certified coaches who care about your success"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Students Say",
+    "subtitle": "Join thousands of satisfied customers who transformed their results",
+    "person1": {
+      "role": "Business Owner",
+      "quote": "This program completely changed how I approach my business. Within the first month, I saw a 3x increase in revenue. The strategies are practical and immediately applicable."
+    },
+    "person2": {
+      "role": "Freelancer",
+      "quote": "I was skeptical at first, but the results speak for themselves. The community support alone is worth 10x the price. Best investment I have ever made in myself."
+    },
+    "person3": {
+      "role": "Marketing Director",
+      "quote": "The frameworks taught here are light-years ahead of anything else on the market. I have implemented these across my entire team and we are seeing incredible traction."
+    }
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Start your transformation today. All plans include our 60-day guarantee.",
+    "perMonth": "/mo",
+    "getStarted": "Get Started",
+    "popular": "Most Popular",
+    "tier1": {
+      "name": "Starter",
+      "desc": "Perfect for getting started on your transformation journey",
+      "feature1": "Core training modules",
+      "feature2": "Community access",
+      "feature3": "Monthly Q&A calls",
+      "feature4": "Email support"
+    },
+    "tier2": {
+      "name": "Professional",
+      "desc": "The complete package for serious achievers",
+      "feature1": "Everything in Starter",
+      "feature2": "Advanced masterclasses",
+      "feature3": "1-on-1 coaching sessions",
+      "feature4": "Done-for-you templates",
+      "feature5": "Priority support"
+    },
+    "tier3": {
+      "name": "Enterprise",
+      "desc": "For teams and organizations ready to scale",
+      "feature1": "Everything in Professional",
+      "feature2": "Team training portal",
+      "feature3": "Dedicated success manager",
+      "feature4": "Custom integrations",
+      "feature5": "White-label license",
+      "feature6": "24/7 VIP support"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got questions? We have answers",
+    "q1": {
+      "question": "How long does it take to see results?",
+      "answer": "Most students report seeing meaningful progress within the first 2-4 weeks of consistent application. However, results vary based on your starting point and level of effort. Our fastest students have achieved breakthrough results in as little as 7 days."
+    },
+    "q2": {
+      "question": "Is there a money-back guarantee?",
+      "answer": "Absolutely. We offer an unconditional 60-day money-back guarantee. If you are not completely satisfied for any reason, simply contact our support team and we will refund every penny — no questions asked."
+    },
+    "q3": {
+      "question": "Do I need any prior experience?",
+      "answer": "No prior experience is required. The course is designed to take you from complete beginner to advanced practitioner. Each module builds on the previous one, with clear action steps at every stage."
+    },
+    "q4": {
+      "question": "How is the content delivered?",
+      "answer": "All content is delivered through our premium online learning portal. You get instant access to HD video lessons, downloadable resources, workbooks, and our private community. Learn at your own pace, on any device."
+    },
+    "q5": {
+      "question": "What if I get stuck or need help?",
+      "answer": "You are never alone on your journey. Our community forum is active 24/7, and our support team responds within hours. Professional and Enterprise plan members also get direct access to 1-on-1 coaching."
+    }
+  },
+  "cta": {
+    "headline": "Ready to Transform Your Results?",
+    "subheadline": "Join thousands of successful students today. Your breakthrough starts now.",
+    "button": "Get Instant Access",
+    "disclaimer": "Limited time pricing. Price increases soon."
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact"
+    },
+    "disclaimer": "Results may vary. The testimonials displayed are individual experiences and do not guarantee similar outcomes."
+  },
+  "about": {
+    "title": "About the Creator",
+    "headline": "Meet the Person Behind Results Mastery",
+    "story": "After spending over a decade in the trenches, testing what actually works and what does not, I created this program to give you the shortcut. No fluff, no filler — just the exact systems, frameworks, and strategies that produce real, measurable results. My mission is to help 100,000 people achieve their breakthrough.",
+    "credentials": {
+      "title": "Credentials & Experience",
+      "item1": "10+ years of hands-on industry experience",
+      "item2": "Featured in major publications",
+      "item3": "Helped 5,000+ students achieve results",
+      "item4": "Multiple award-winning programs"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We are here to help. Send us a message and we will get back within 24 hours.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "submit": "Send Message",
+    "success": "Message sent successfully! We will get back to you soon.",
+    "emailLabel": "Email us directly",
+    "responseTime": "We typically respond within 24 hours"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "intro": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information.",
+    "sections": {
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We collect information you provide directly, such as your name, email address, and payment information when you make a purchase. We also collect usage data through cookies and analytics tools to improve our service."
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "content": "We use your information to provide and improve our services, process payments, send important updates, and personalize your experience. We never sell your personal data to third parties."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "We use essential cookies for site functionality and analytics cookies to understand how you use our platform. You can control cookie preferences through your browser settings."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, or delete your personal data at any time. You may also opt out of marketing communications. Contact us to exercise these rights."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 2025",
+    "intro": "By accessing and using our services, you agree to be bound by these terms. Please read them carefully.",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By creating an account or making a purchase, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy."
+      },
+      "purchases": {
+        "title": "Purchases and Refunds",
+        "content": "All purchases are subject to our 60-day money-back guarantee. To request a refund, contact our support team within 60 days of your purchase. Refunds are processed within 5-10 business days."
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "content": "All content, materials, and resources provided through our platform are protected by copyright and intellectual property laws. You may not redistribute, resell, or create derivative works without explicit permission."
+      },
+      "limitation": {
+        "title": "Limitation of Liability",
+        "content": "We provide our services on an as-is basis. While we strive for excellence, we make no guarantees about specific outcomes. Our liability is limited to the amount you paid for the service."
+      }
+    }
+  },
+  "darkMode": {
+    "toggle": "Toggle dark mode"
+  }
+}
