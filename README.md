@@ -1,75 +1,52 @@
-# Nuxt Minimal Starter
+# Affiliate Page
+*shiro — where style meets function*
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Category: Landing Page Template**  
+**Live:** [https://affiliate-page-sh1r00-691.netlify.app](https://affiliate-page-sh1r00-691.netlify.app)  
+**GitHub:** [affiliate-page-nuxt4](https://github.com/sh1r00/affiliate-page-nuxt4)  
 
-## Setup
+## About This Project
 
-Make sure to install dependencies:
+Video-first affiliate marketing landing page. Video embeds, pricing tables, FAQs, and CTA sections.
+
+**Tech:** 
+Nuxt 4, Vue 3, Tailwind CSS, Dark Mode, PWA, Video Embeds
+
+[![shiro](https://img.shields.io/badge/shiro-where_style_meets_function-6C5CE7)](https://shiro-portfolio-sh1r00.netlify.app)
+
+## Deployment
 
 ```bash
-# npm
+npx nuxi generate
+```
+```bash
+Deploy .output/public to Netlify via API zip upload.
+```
+> **Note:** Large video files are gitignored — add them to public/videos/ before deploying.
+
+## Quick Start (Local Development)
+
+1. Install dependencies:
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+2. Start development server:
 npm run dev
 
-# pnpm
-pnpm dev
+3. Build for production:
+npm run generate
 
-# yarn
-yarn dev
+4. Preview production build:
+npx serve .output/public
 
-# bun
-bun run dev
-```
+## Notes
 
-## Production
+- Built with Nuxt 4 (compatibilityVersion 4) and Vue 3 Composition API
+- All projects use atomic design: atoms/ → molecules/ → organisms/
+- Dark mode is SSR-safe via Pinia store with useCookie() persistence
+- PWA configured with service worker for offline access
+- CSP headers configured via nuxt-security module (production only)
+- i18n supports 3 locales: English, Español, አማርኛ
 
-Build the application for production:
+---
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+*Made with ❤️ by shiro — rasisg@gmail.com — github.com/sh1r00*
