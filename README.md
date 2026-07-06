@@ -18,7 +18,6 @@ Nuxt 4, Vue 3, Tailwind CSS, Dark Mode, PWA, Video Embeds
 
 ```bash
 npx nuxi generate
-```
 ```bash
 Deploy .output/public to Netlify via API zip upload.
 ```
@@ -27,16 +26,24 @@ Deploy .output/public to Netlify via API zip upload.
 ## Quick Start (Local Development)
 
 1. Install dependencies:
-npm install
+   ```bash
+   npm install
+   ```
 
 2. Start development server:
-npm run dev
+   ```bash
+   npm run dev
+   ```
 
 3. Build for production:
-npm run generate
+   ```bash
+   npm run generate
+   ```
 
 4. Preview production build:
-npx serve .output/public
+   ```bash
+   npx serve .output/public
+   ```
 
 ## Notes
 
