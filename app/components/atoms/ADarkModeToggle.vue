@@ -18,4 +18,5 @@
 import { useDarkModeStore } from '~/stores/darkMode'
 const darkMode = useDarkModeStore()
 const { t } = useI18n()
+onMounted(() => darkMode.initialize())
 </script>
