@@ -14,24 +14,21 @@ export default defineNuxtConfig({
   i18n: {
     strategy: 'prefix',
     defaultLocale: 'en',
+    baseUrl: process.env.NUXT_PUBLIC_SITE_URL || 'http://localhost:3000',
     locales: [
-      { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
-      { code: 'es', iso: 'es-ES', name: 'Español', file: 'es.json' },
-      { code: 'am', iso: 'am-ET', name: 'አማርኛ', file: 'am.json' },
+      { code: 'en', language: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'es', language: 'es', iso: 'es-ES', name: 'Español', file: 'es.json' },
+      { code: 'am', language: 'am', iso: 'am-ET', name: 'አማርኛ', file: 'am.json' },
     ],
-    lazy: false,
+    lazy: true,
     langDir: 'locales',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root',
-    },
+    detectBrowserLanguage: false,
   },
 
   pwa: {
     registerType: 'autoUpdate',
     devOptions: { enabled: false },
-    manifest: { name: 'App', short_name: 'App', theme_color: '#000000', background_color: '#ffffff', display: 'standalone' },
+    manifest: { name: 'Affiliate Page', short_name: 'Affiliate Page', theme_color: '#dc2626', background_color: '#ffffff', display: 'standalone' },
     workbox: { globPatterns: ['**/*.{js,css,html,png,svg,ico,woff2,json}'], navigateFallback: '/', cleanupOutdatedCaches: true, skipWaiting: true, clientsClaim: true,
       runtimeCaching: [
         { urlPattern: /\\.json$/, handler: 'StaleWhileRevalidate', options: { cacheName: 'i18n' } },
@@ -45,7 +42,7 @@ export default defineNuxtConfig({
     headers: process.env.NODE_ENV === "development" ? false : {
       contentSecurityPolicy: {
         'default-src': ["'self'"],
-        'script-src': ["'self'", "'unsafe-inline'"],
+        'script-src': ["'self'", "'strict-dynamic'", "'nonce-{{nonce}}'"],
         'style-src': ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
         'font-src': ["'self'", 'https://fonts.gstatic.com', 'https://fonts.googleapis.com'],
         'img-src': ["'self'", 'data:', 'https:'],
@@ -56,7 +53,7 @@ export default defineNuxtConfig({
         'form-action': ["'self'"],
       },
     },
-    rateLimiter: false,
+    rateLimiter: { tokensPerInterval: 30, interval: 60000 },
     xssValidator: process.env.NODE_ENV !== "development",
   },
 
@@ -72,7 +69,6 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      htmlAttrs: { lang: 'en' },
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       ],
@@ -83,4 +79,5 @@ export default defineNuxtConfig({
       include: ['@vue/devtools-core', '@vue/devtools-kit', 'pinia'],
     },
   },
+  nitro: { prerender: { failOnError: false } },
 })

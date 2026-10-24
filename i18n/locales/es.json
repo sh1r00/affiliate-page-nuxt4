@@ -200,5 +200,11 @@
   },
   "darkMode": {
     "toggle": "Alternar modo oscuro"
+  },
+  "pwa": {
+    "heading": "Instalar esta aplicación",
+    "description": "Instala esta aplicación para acceder sin conexión y disfrutar de una experiencia más rápida.",
+    "install": "Instalar",
+    "dismiss": "Descartar"
   }
 }

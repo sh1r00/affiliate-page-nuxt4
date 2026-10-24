@@ -25,3 +25,6 @@ logs
 public/videos/zcodeintrofinal.mp4
 public/videos/how_bookies_cheat.mp4
 public/videos/win_rate.mp4
+
+# Local Netlify folder
+.netlify

@@ -200,5 +200,11 @@
   },
   "darkMode": {
     "toggle": "Toggle dark mode"
+  },
+  "pwa": {
+    "heading": "Install this app",
+    "description": "Install this app for offline access and a faster, app-like experience.",
+    "install": "Install",
+    "dismiss": "Dismiss"
   }
 }
